@@ -24,3 +24,5 @@ func BenchmarkRepeat(b *testing.B) {
 `
 `b.N` times it runs and measures how long it takes 
 `$ go test -bench=.` will run the Benchmarks
+
+Note: By default Benchmarks are run sequentially 
